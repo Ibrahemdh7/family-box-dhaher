@@ -10,5 +10,21 @@
     "seed": "ts-node --project tsconfig.node.json src/scripts/addDummyData.ts",
     "add-dummy-transfers": "ts-node --project tsconfig.node.json src/scripts/addDummyTransfers.ts",
     "create-indexes": "ts-node --project tsconfig.node.json src/scripts/createIndexes.ts"
+  },
+  "dependencies": {
+    "@tailwindcss/postcss": "^4.0.9",
+    "chart.js": "^4.4.8",
+    "firebase": "^11.4.0",
+    "next": "^15.2.0",
+    "primeicons": "^7.0.0",
+    "primereact": "^10.9.2"
+  },
+  "devDependencies": {
+    "@firebase/app-types": "^0.9.3",
+    "@types/firebase": "^3.2.3",
+    "autoprefixer": "^10.4.20",
+    "postcss": "^8.5.3",
+    "tailwindcss": "^4.0.9",
+    "typescript": "5.8.2"
   }
 }
